@@ -1,6 +1,9 @@
-# HTML-CSS
+## HTML-CSS Guide
 
  - TIPS:
-  1.Architecture & Planning
-  2.Blueprints
-  3.Construction 
+  1. Architecture & Planning
+  2. Blueprints
+  3. Construction 
+
+
+
