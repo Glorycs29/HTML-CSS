@@ -1,0 +1,48 @@
+<h1>Ordered and unordered lists</h1>
+<h2><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul" target="_blank">Unordered list</a></h2>
+<p>There are no unique attributes associated with unordered lists. The usual suspects apply, like <code>class</code>, <code>title</code>, etc.</p>
+
+
+<ul>
+  <li>Here's a thing</li>
+  <li>Another thing</li>
+  <li>More things</li>
+  <li><a href="#">A link in a thing</a></li>
+</ul>
+
+
+
+<h2><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol" target="_blank">Ordered list</a></h2>
+<p>Try some cool attributes with ordered lists:</p>
+<dl>
+  <dt><code>reversed</code></dt>
+  <dd>Reverse numbering. No value required.</dd>
+  <dt><code>start="x"</code></dt>
+  <dd>x is an Arabic numeral indicating where to start the numbering if it's not 1.</dd>
+  <dt><code>type="x"</code></dt>
+  <dd><code>x</code> is the numbering type: <code>a</code> for lowercase letters, <code>A</code> for uppercase letters, <code>i</code> for lowercase Roman numerals, <code>I</code> for uppercase Roman numerals, and <code>1</code> for numbers (default)</li>
+    </ul>
+  </dd>
+</dl>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol#attr-type" target="_blank">Note</a>: Unless the type of the list number matters (like legal or technical documents where items are referenced by their number/letter), use the CSS <code><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type" target="_blank">list-style-type</a></code> property instead.</p>
+
+
+<ol type="i">
+  <li>The first thing to do</li>
+  <li>The second thing</li>
+  <li>The last thing</li>
+</ol>
+
+<h2>Nested list</h2>
+<p>You may nest ordered lists, unordered lists, or mix the two.</p>
+
+<ul class="nested">
+  <li>Here's a thing</li>
+  <li>Another thing
+    <ol>
+      <li>Here's a sub-thing that comes first</li>
+      <li>Another sub-thing of secondary importance</li>
+    </ol>
+  </li>
+  <li>More things</li>
+</ul>
